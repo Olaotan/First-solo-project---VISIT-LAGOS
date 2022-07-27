@@ -1,0 +1,105 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+h1, h2 {
+
+    text-shadow: 0 0 1px black;
+}
+h3, h4, p {
+    color: #1D3557;
+}
+body {
+    margin: auto;
+    text-align: center;
+  }
+/*top*/
+.topcontainer {
+    background-image: url("images/Lagos-Nigeria.jpg");
+    background-size: cover;
+    height: 400px;
+}
+.toptext {
+    color: whitesmoke;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.toptext-h1 {
+    background: #1D3557;
+    border-radius: 5px;
+    padding: 3px 12px;
+}
+.toptext-h3 {
+    background: #457B9D;   
+    border-radius: 5px;
+    padding: 3px 12px;
+    margin: 1px;
+    color: whitesmoke;
+}
+
+/*middle*/
+.midcontainer {
+    background: #F1FAEE;
+    display: flex;
+    padding: 70px 10px;
+    margin-bottom: 50px;
+}
+.mid-bucket:hover {
+    box-shadow: 5px 5px 30px #457B9D
+}
+.mid-images {
+    width: 100px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 30px #1D3557;
+}
+
+.mid-btn {
+    background: whitesmoke;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 10px 25px;
+    padding: 5px 20px;
+    box-shadow: 5px 5px 30px #1D3557;
+}
+.mid-btn:hover {
+    background: #1D3557;
+    color: whitesmoke;
+}
+/*bottom*/
+.bottomcontainer {
+    background: #A8DADC;
+    margin: auto;
+    margin-bottom: 80px;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 10px 5px #1D3557;
+
+}
+
+.bottomwrap {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.bottom-img {
+    width: 180px;
+    height: 250px;
+    border-radius: 15px;
+    margin: 20px 10px;
+}
+.bottom-img:hover {
+    background-image: url("images/olaotan2.jpg");
+    background-size: cover;
+    width: 180px;
+    height: 250px;
+}
